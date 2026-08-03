@@ -7,13 +7,13 @@ export const profile = {
   name: "Julien Wuthrich",
   username: "julien",
   hostname: "macbook-pro",
-  role: "Founding AI Engineer",
-  roleLong: "Machine Learning Engineer / Founding AI Engineer",
+  role: "Staff AI Engineer",
+  roleLong: "Machine Learning Engineer / Staff AI Engineer",
   tagline: "I build production multi-agent systems that are reliable, observable, and measurably correct — not just demo-ready.",
   location: "San Francisco, CA",
   email: "julien.wut@gmail.com",
   avatar: "JW", // rendered as a monogram in the About app
-  now: "Founding Engineer & AI Lead at Heysam — building production multi-agent systems for live call assistance.",
+  now: "Staff AI Engineer at Connectly — building the harness that lets any customer stand up multi-agent systems for their own customer traffic.",
   about: [
     "I'm an ML/AI engineer with 8+ years designing and shipping large-scale AI systems for SaaS and enterprise.",
     "These days I go deep on production multi-agent systems, LLM orchestration, RAG, and rigorous LLM evaluation — the unglamorous work that makes agentic products reliable, observable, and measurably correct instead of just demo-ready.",
@@ -29,7 +29,7 @@ export const profile = {
   ],
   // The labelled list shown on the About window
   facts: [
-    { label: "Currently", value: "Founding Engineer & AI Lead @ Heysam" },
+    { label: "Currently", value: "Staff AI Engineer @ Connectly" },
     { label: "Focus", value: "Multi-agent systems · LLM evals · RAG" },
     { label: "Core stack", value: "Python · PyTorch · FastAPI · Next.js" },
     { label: "Experience", value: "8+ years shipping production AI" },

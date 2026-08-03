@@ -28,9 +28,20 @@ export const resume = {
 
   experience: [
     {
+      company: "Connectly",
+      role: "Staff AI Engineer",
+      period: "Jul 2026 — Present",
+      location: "San Francisco, CA",
+      bullets: [
+        "Building the agent harness at the core of the platform — the layer that lets any customer assemble a single agent or a full multi-agent system to handle their own inbound traffic (support tickets, messages, conversations) without writing the orchestration themselves.",
+        "Encoding hard-won agent best practices into the harness itself: prompt structure and versioning, grounding and hallucination guardrails, tool-use conventions, and evaluation hooks — so customers inherit reliability instead of rediscovering it one incident at a time.",
+        "Owning the latency and cost profile of the stack — model routing, caching, context management and streaming — to keep multi-agent flows fast enough and cheap enough to sit in front of live customer traffic at scale.",
+      ],
+    },
+    {
       company: "Heysam",
       role: "Founding Engineer & Backend/AI Lead",
-      period: "Jul 2023 — Present",
+      period: "Jul 2023 — Jul 2026",
       location: "San Mateo, CA",
       bullets: [
         "Sole backend & AI engineer in a 4-person founding team; own end-to-end architecture, infra, and the full ML/agent stack powering a rapidly scaling SaaS, partnering with the CEO on technical direction.",

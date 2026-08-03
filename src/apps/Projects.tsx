@@ -66,6 +66,11 @@ function Detail({ p, onBack }: { p: Project; onBack: () => void }) {
               Source <ExternalIcon />
             </a>
           )}
+          {p.links?.map((l) => (
+            <a className="btn-ghost" key={l.url} href={l.url} target="_blank" rel="noopener noreferrer">
+              {l.label} <ExternalIcon />
+            </a>
+          ))}
         </div>
       </div>
     </motion.div>
