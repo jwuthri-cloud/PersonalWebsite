@@ -54,7 +54,7 @@ export const projects: Project[] = [
     highlights: [
       "Six competitions in one place, from the 2026 World Cup to each of Europe's top five leagues.",
       "Season overviews — matches, goals, winners — that drill straight down into granular per-match statistics.",
-      "Warmly received on Product Hunt and widely shared on LinkedIn after launch.",
+      "Launched on Product Hunt and shared on LinkedIn.",
     ],
     tags: ["Analytics", "Sports Data", "Dashboards"],
     year: "2026",
@@ -121,14 +121,14 @@ export const projects: Project[] = [
     name: "Kinetic Fitness",
     blurb: "An iOS app for workout planning & progress tracking.",
     description:
-      "A clean, native iOS experience for planning structured workout routines and tracking progress over time — built to be fast, focused, and free of the bloat most fitness apps ship with.",
+      "A clean Flutter app for planning structured workout routines and tracking progress over time — built to be fast, focused, and free of the bloat most fitness apps ship with.",
     highlights: [
       "Structured workout routines with planning and day-to-day tracking.",
       "Progress analytics that turn each session into a trend you can actually read.",
-      "Native, distraction-free UI focused on getting in, logging, and getting out.",
-      "Picked up a run of reviews on Product Hunt, and holds a 5-star rating across its first 4 App Store reviews.",
+      "Distraction-free UI focused on getting in, logging, and getting out.",
+      "Launched on Product Hunt; holds a 5-star rating on the App Store (3 reviews).",
     ],
-    tags: ["iOS", "Swift", "Health", "Analytics"],
+    tags: ["iOS", "Flutter", "Health", "Analytics"],
     year: "2024",
     platform: "iOS",
     status: "Live",

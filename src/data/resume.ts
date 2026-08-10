@@ -30,7 +30,7 @@ export const resume = {
     {
       company: "Connectly",
       role: "Staff AI Engineer",
-      period: "Jul 2026 — Present",
+      period: "Apr 2026 — Present",
       location: "San Francisco, CA",
       bullets: [
         "Building the agent harness at the core of the platform — the layer that lets any customer assemble a single agent or a full multi-agent system to handle their own inbound traffic (support tickets, messages, conversations) without writing the orchestration themselves.",
@@ -39,9 +39,9 @@ export const resume = {
       ],
     },
     {
-      company: "Heysam",
+      company: "HeySam",
       role: "Founding Engineer & Backend/AI Lead",
-      period: "Jul 2023 — Jul 2026",
+      period: "Aug 2023 — Apr 2026",
       location: "San Mateo, CA",
       bullets: [
         "Sole backend & AI engineer in a 4-person founding team; own end-to-end architecture, infra, and the full ML/agent stack powering a rapidly scaling SaaS, partnering with the CEO on technical direction.",
@@ -52,25 +52,15 @@ export const resume = {
       ],
     },
     {
-      company: "Various Startups",
-      role: "AI Strategy Advisor (Freelance)",
-      period: "Dec 2023 — Present",
-      location: "Oakland, CA",
-      bullets: [
-        "Led AI transformations for 4+ startups, automating workflows and cutting manual work by up to 20 hours/week.",
-        "Directed computer-vision strategy for a retail analytics company, improving inventory accuracy by 25%.",
-      ],
-    },
-    {
       company: "Gorgias",
-      role: "Founding Machine Learning Engineer",
+      role: "Machine Learning Engineer",
       period: "Aug 2019 — Aug 2023",
       location: "San Francisco, CA",
       bullets: [
-        "Built and scaled ML systems handling 100M+ daily queries at <100ms latency across 10,000+ ecommerce brands.",
-        "Launched multilingual NLP models (classification, intent detection, sentiment) powering automated support — driving $4M+ ARR growth and a 15%+ CSAT increase.",
-        "Designed and operated the ML platform end-to-end: data pipelines, training, real-time inference, deployment and 24/7 monitoring (99.99% uptime).",
-        "Partnered with product leadership on the AI roadmap; directly responsible for 30%+ of product engagement. Mentored engineers and scaled the ML team from 1 to 6.",
+        "Built and scaled the ML serving stack for 10,000+ ecommerce brands — smart batching on GPU-backed, autoscaled Kubernetes to hold sub-100ms latency targets at production volume.",
+        "Launched multilingual NLP models (one shared encoder with task-specific heads: classification, intent detection, sentiment, NER) powering automated support across the merchant base.",
+        "Designed and operated the ML platform end-to-end: data pipelines, training, real-time inference, deployment and 24/7 monitoring, in a production platform holding 99.9%+ public uptime.",
+        "Partnered with product leadership on the AI roadmap; owned deep learning across the platform; mentored junior engineers and contributed to hiring.",
       ],
     },
     {

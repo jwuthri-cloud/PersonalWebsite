@@ -17,14 +17,14 @@ export const profile = {
   about: [
     "I'm an ML/AI engineer with 8+ years designing and shipping large-scale AI systems for SaaS and enterprise.",
     "These days I go deep on production multi-agent systems, LLM orchestration, RAG, and rigorous LLM evaluation — the unglamorous work that makes agentic products reliable, observable, and measurably correct instead of just demo-ready.",
-    "I like founding-engineer ownership: architecture → inference → infra → evals. I've scaled ML systems handling 100M+ daily queries and shipped agent stacks running live in front of enterprise clients.",
-    "On the side I build products — an LLM eval platform, an invisible meeting assistant, a fitness app — and occasionally advise startups on their AI strategy.",
+    "I like founding-engineer ownership: architecture → inference → infra → evals. I've scaled ML systems serving 10,000+ ecommerce brands and shipped agent stacks running live in front of enterprise clients.",
+    "On the side I build products — an LLM eval platform, an invisible meeting assistant, a fitness app.",
   ],
   // Headline numbers shown as stat cards on the About page
   stats: [
     { value: "8+", label: "Years in ML/AI" },
-    { value: "100M+", label: "Daily queries scaled" },
-    { value: "$4M+", label: "ARR driven" },
+    { value: "10k+", label: "Brands served" },
+    { value: "6", label: "Products shipped" },
     { value: "99.9%", label: "Uptime sustained" },
   ],
   // The labelled list shown on the About window
